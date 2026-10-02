@@ -1,162 +1,258 @@
 # Analysis Results
 
-## 1. Overview
+## 1. Executive Summary
 
-This analysis examines customer complaints using the following fields:
+This analysis examines **50 customer complaints** recorded between January and May 2026.
 
-* Complaint ID
-* Complaint Date
-* Category
-* Channel
-* Priority
-* Resolution Time (Hours)
-* Repeat Contact
-* Resolution Status
-* Root Cause
+The analysis focuses on complaint volume, priority, resolution time, repeat contact, communication channels, categories, and root causes.
 
-The objective is to identify complaint patterns, resolution performance, repeat-contact trends, and potential root causes.
+### Key Results
 
-## 2. Key Findings
+* **50 complaints** were recorded.
+* **100% of complaints were resolved.**
+* **26 complaints (52%) involved repeat contact.**
+* Average resolution time was **46.4 hours**.
+* Resolution time ranged from **10 to 82 hours**.
+* **Delivery** was the largest complaint category with **15 complaints (30%)**.
+* **Product Quality** had the highest average resolution time at **75.5 hours**.
+* **25 complaints (50%) were High priority**.
+* Email and Phone were the most frequently used channels, with **15 complaints each (30%)**.
 
-### Complaint Categories
+---
 
-The dataset contains complaints across multiple categories, including:
+## 2. Complaint Volume by Category
 
-* Delivery
-* Billing
-* Product Quality
+| Category        | Complaints | Percentage |
+| --------------- | ---------: | ---------: |
+| Delivery        |         15 |        30% |
+| Billing         |         10 |        20% |
+| Product Quality |         10 |        20% |
+| Refund          |          9 |        18% |
+| Account         |          6 |        12% |
+| **Total**       |     **50** |   **100%** |
 
-These categories can be used to identify which areas generate the greatest number of customer issues.
+### Finding
 
-### Communication Channels
+Delivery generated the highest number of complaints, accounting for **30% of all complaints**.
 
-Complaints were received through:
+Billing and Product Quality each represented **20%** of total complaints.
 
-* Email
-* Phone
-* Web
+---
 
-Tracking the channel helps identify how customers prefer to report problems and whether certain channels are associated with longer resolution times.
+## 3. Resolution Time Analysis
 
-### Priority
+Overall average resolution time was **46.4 hours**.
 
-Complaints are classified as:
+| Category        | Average Resolution Time |
+| --------------- | ----------------------: |
+| Product Quality |              75.5 hours |
+| Refund          |              56.2 hours |
+| Delivery        |              47.3 hours |
+| Billing         |              27.4 hours |
+| Account         |              12.7 hours |
 
-* High
-* Medium
-* Low
+### Finding
 
-High-priority complaints should generally receive faster attention because they may have a greater customer or business impact.
+Product Quality complaints had the longest average resolution time at **75.5 hours**.
 
-### Resolution Time
+Account complaints had the shortest average resolution time at **12.7 hours**.
 
-Resolution time is measured in hours.
+This indicates that product-related issues may require more investigation, troubleshooting, replacement, or coordination before resolution.
 
-The sample includes resolution times such as:
+---
 
-* 24 hours
-* 48 hours
-* 72 hours
+## 4. Resolution Time Range
 
-Longer resolution times may indicate process delays, operational issues, or cases requiring additional investigation.
+| Measure                 |     Result |
+| ----------------------- | ---------: |
+| Minimum resolution time |   10 hours |
+| Maximum resolution time |   82 hours |
+| Average resolution time | 46.4 hours |
 
-### Repeat Contact
+The longest resolution time in the dataset was **82 hours**, while the shortest was **10 hours**.
 
-The `Repeat_Contact` field identifies whether customers contacted the organization again about the same issue.
+---
 
-Repeat contacts are important because they may indicate:
+## 5. Priority Analysis
 
-* The original resolution was not sufficient.
-* Customers did not receive enough information.
-* The issue took too long to resolve.
-* The underlying root cause was not addressed.
+| Priority  | Complaints | Percentage |
+| --------- | ---------: | ---------: |
+| High      |         25 |        50% |
+| Medium    |         19 |        38% |
+| Low       |          6 |        12% |
+| **Total** |     **50** |   **100%** |
 
-### Resolution Status
+### Finding
 
-The dataset records whether complaints were resolved.
+Half of all complaints were classified as **High priority**.
 
-The sample records provided are marked as `Resolved`.
+High-priority complaints had an average resolution time of approximately **64.6 hours**, compared with:
 
-Resolution status can be used to identify unresolved cases and calculate the overall resolution rate.
+* Medium priority: **31.5 hours**
+* Low priority: **12.7 hours**
 
-### Root Causes
+This shows a clear difference in resolution time across priority levels within this dataset.
 
-Examples of identified root causes include:
+---
 
-* Delivery Delay
-* Incorrect Invoice
+## 6. Repeat Contact Analysis
 
-Root-cause analysis can help the organization address the source of recurring complaints instead of only resolving individual cases.
+| Repeat Contact | Complaints | Percentage |
+| -------------- | ---------: | ---------: |
+| Yes            |         26 |        52% |
+| No             |         24 |        48% |
+| **Total**      |     **50** |   **100%** |
 
-## 3. Business Insights
+### Finding
 
-Based on the available sample data:
+More than half of the complaints involved repeat contact.
 
-1. **Delivery issues can create significant customer impact**, particularly when resolution takes multiple days.
-2. **Billing problems may require process improvements**, especially when caused by incorrect invoices.
-3. **Repeat contact should be monitored** because it can indicate that the initial resolution did not fully satisfy the customer.
-4. **Resolution time should be tracked by priority and category** to identify service-level problems.
-5. **Root-cause tracking provides actionable information** for improving operational processes.
+A **52% repeat-contact rate** may indicate opportunities to improve first-contact resolution, customer communication, or the effectiveness of the initial resolution.
 
-## 4. Recommended KPIs
+Further analysis should examine repeat contact by category, priority, and resolution time.
 
-The following KPIs should be monitored in a customer complaints dashboard:
+---
 
-| KPI                           | Purpose                                    |
-| ----------------------------- | ------------------------------------------ |
-| Total Complaints              | Measures complaint volume                  |
-| Average Resolution Time       | Measures resolution efficiency             |
-| Resolution Rate               | Measures percentage of complaints resolved |
-| Repeat Contact Rate           | Measures recurring customer issues         |
-| High-Priority Complaint Count | Tracks urgent cases                        |
-| Complaints by Category        | Identifies major problem areas             |
-| Complaints by Channel         | Identifies customer contact patterns       |
-| Complaints by Root Cause      | Identifies underlying operational problems |
+## 7. Channel Analysis
 
-## 5. Suggested Business Actions
+| Channel   | Complaints | Percentage |
+| --------- | ---------: | ---------: |
+| Email     |         15 |        30% |
+| Phone     |         15 |        30% |
+| Web       |         10 |        20% |
+| Chat      |         10 |        20% |
+| **Total** |     **50** |   **100%** |
 
-### Reduce Resolution Time
+### Finding
 
-Analyze complaints with the longest resolution times and identify bottlenecks in the resolution process.
+Email and Phone were the most frequently used complaint channels, each accounting for **30%** of complaints.
 
-### Reduce Repeat Contacts
+Web and Chat each accounted for **20%**.
 
-Review cases where `Repeat_Contact = Yes` to determine whether customers need better communication or whether the underlying issue requires a different resolution.
+---
 
-### Address Root Causes
+## 8. Root Cause Analysis
 
-Use root-cause information to identify recurring operational problems, such as delivery delays or billing errors.
+The root causes correspond to the major complaint categories in the dataset.
 
-### Monitor High-Priority Cases
+| Root Cause                | Complaints | Percentage |
+| ------------------------- | ---------: | ---------: |
+| Delivery Delay            |         15 |        30% |
+| Incorrect Invoice         |         10 |        20% |
+| Product Defect            |         10 |        20% |
+| Refund Processing Delay   |          9 |        18% |
+| Account Information Issue |          6 |        12% |
+| **Total**                 |     **50** |   **100%** |
 
-Track high-priority complaints separately and establish appropriate service-level targets for resolving them.
+### Finding
 
-## 6. Next Analysis Steps
+**Delivery Delay** was the most common root cause, representing **30% of complaints**.
 
-The next stage of the project should include:
+Product Defect and Incorrect Invoice were the next most common root causes, each representing **20%**.
 
-1. Calculate total complaint volume.
-2. Calculate average resolution time.
-3. Calculate resolution rate.
-4. Calculate repeat-contact rate.
-5. Analyze complaints by category.
-6. Analyze complaints by channel.
-7. Compare resolution time by priority.
-8. Identify the most common root causes.
-9. Create charts/dashboard visualizations.
-10. Convert the findings into business recommendations.
+---
 
-## 7. Tools
+## 9. Business Insights
 
-Potential tools for completing the analysis include:
+### Insight 1 — Delivery is the largest complaint area
 
-* Microsoft Excel
-* SQL
-* Power BI
-* GitHub
+Delivery complaints accounted for **30% of all complaints**.
 
-## 8. Conclusion
+This suggests that delivery processes should be reviewed for potential delays, communication gaps, and operational bottlenecks.
 
-Customer complaint data can be used to identify operational issues, measure customer-service performance, and prioritize process improvements.
+### Insight 2 — Product Quality complaints take the longest to resolve
 
-The combination of complaint category, priority, resolution time, repeat contact, and root cause provides a useful foundation for a Business Analyst portfolio project.
+Product Quality complaints had an average resolution time of **75.5 hours**, the highest among all categories.
+
+Further investigation could identify whether product investigation, replacement, escalation, or supplier coordination contributes to the longer resolution time.
+
+### Insight 3 — Repeat contact is significant
+
+**52% of complaints involved repeat contact.**
+
+This is an important customer-service KPI because repeat contact can increase workload and may indicate that customers require additional communication or that the initial resolution did not completely address their issue.
+
+### Insight 4 — High-priority cases take longer
+
+High-priority complaints had an average resolution time of approximately **64.6 hours**.
+
+The organization should review whether high-priority cases are being escalated and handled according to appropriate service-level targets.
+
+### Insight 5 — Billing and Account complaints are resolved faster
+
+Billing complaints averaged **27.4 hours**, while Account complaints averaged **12.7 hours**.
+
+These categories had substantially shorter average resolution times than Product Quality and Refund complaints.
+
+---
+
+## 10. Recommended KPIs
+
+The following KPIs should be monitored in a customer-service dashboard:
+
+| KPI                                     | Current Result |
+| --------------------------------------- | -------------: |
+| Total Complaints                        |             50 |
+| Resolution Rate                         |           100% |
+| Average Resolution Time                 |     46.4 hours |
+| Repeat Contact Rate                     |            52% |
+| High-Priority Complaints                |            50% |
+| Delivery Complaint Rate                 |            30% |
+| Product Quality Average Resolution Time |     75.5 hours |
+
+These KPIs can be monitored over time to identify changes in customer-service performance.
+
+---
+
+## 11. Business Recommendations
+
+### 1. Investigate Delivery Delays
+
+Review delivery processes to identify recurring causes of delays and determine whether customer communication can be improved.
+
+### 2. Reduce Product Quality Resolution Time
+
+Analyze the workflow for Product Quality complaints and identify opportunities to reduce investigation and resolution time.
+
+### 3. Reduce Repeat Contacts
+
+Review complaints involving repeat contact to identify common reasons customers need to contact the organization again.
+
+### 4. Review High-Priority Service Levels
+
+Compare actual resolution times against internal service-level targets for High-priority complaints.
+
+### 5. Monitor Root Causes
+
+Track root causes regularly so that recurring operational problems can be addressed instead of only resolving individual complaints.
+
+---
+
+## 12. Suggested Dashboard
+
+A future customer-service dashboard could include:
+
+* Total complaints
+* Resolution rate
+* Average resolution time
+* Repeat-contact rate
+* Complaints by category
+* Complaints by priority
+* Complaints by channel
+* Average resolution time by category
+* Root causes
+* Monthly complaint trends
+
+Potential dashboard tools include **Excel** or **Power BI**.
+
+---
+
+## 13. Conclusion
+
+The analysis of 50 customer complaints identified several measurable customer-service patterns.
+
+Delivery was the largest complaint category, while Product Quality complaints required the longest average resolution time. Repeat contact occurred in 52% of cases, and half of the complaints were classified as High priority.
+
+These findings provide a basis for improving delivery processes, reducing product-related resolution times, monitoring repeat contact, and strengthening customer-service performance measurement.
+
+The next stage of the project is to create a visual dashboard and present the key findings in a concise business-facing format.
