@@ -1,0 +1,51 @@
+Complaint_ID,Complaint_Date,Category,Channel,Priority,Resolution_Time_Hours,Repeat_Contact,Resolution_Status,Root_Cause
+C001,2026-01-05,Delivery,Email,High,48,Yes,Resolved,Delivery Delay
+C002,2026-01-07,Billing,Phone,Medium,24,No,Resolved,Incorrect Invoice
+C003,2026-01-10,Product Quality,Web,High,72,Yes,Resolved,Product Defect
+C004,2026-01-12,Delivery,Chat,Medium,36,No,Resolved,Delivery Delay
+C005,2026-01-15,Refund,Email,High,60,Yes,Resolved,Refund Processing Delay
+C006,2026-01-18,Account,Phone,Low,12,No,Resolved,Account Information Issue
+C007,2026-01-20,Delivery,Phone,High,54,Yes,Resolved,Delivery Delay
+C008,2026-01-23,Billing,Email,Medium,30,No,Resolved,Incorrect Invoice
+C009,2026-01-26,Product Quality,Web,High,80,Yes,Resolved,Product Defect
+C010,2026-01-29,Refund,Chat,Medium,42,No,Resolved,Refund Processing Delay
+C011,2026-02-02,Delivery,Email,High,52,Yes,Resolved,Delivery Delay
+C012,2026-02-04,Billing,Phone,Medium,26,No,Resolved,Incorrect Invoice
+C013,2026-02-06,Account,Chat,Low,10,No,Resolved,Account Information Issue
+C014,2026-02-09,Product Quality,Email,High,68,Yes,Resolved,Product Defect
+C015,2026-02-11,Delivery,Web,Medium,40,No,Resolved,Delivery Delay
+C016,2026-02-14,Refund,Phone,High,64,Yes,Resolved,Refund Processing Delay
+C017,2026-02-17,Billing,Chat,Medium,28,No,Resolved,Incorrect Invoice
+C018,2026-02-20,Delivery,Phone,High,58,Yes,Resolved,Delivery Delay
+C019,2026-02-23,Product Quality,Web,High,76,Yes,Resolved,Product Defect
+C020,2026-02-26,Account,Email,Low,14,No,Resolved,Account Information Issue
+C021,2026-03-01,Delivery,Email,High,50,Yes,Resolved,Delivery Delay
+C022,2026-03-03,Billing,Phone,Medium,22,No,Resolved,Incorrect Invoice
+C023,2026-03-05,Refund,Web,High,70,Yes,Resolved,Refund Processing Delay
+C024,2026-03-08,Product Quality,Chat,High,74,Yes,Resolved,Product Defect
+C025,2026-03-10,Delivery,Phone,Medium,34,No,Resolved,Delivery Delay
+C026,2026-03-13,Account,Email,Low,16,No,Resolved,Account Information Issue
+C027,2026-03-16,Billing,Chat,Medium,32,No,Resolved,Incorrect Invoice
+C028,2026-03-19,Delivery,Web,High,56,Yes,Resolved,Delivery Delay
+C029,2026-03-22,Product Quality,Email,High,82,Yes,Resolved,Product Defect
+C030,2026-03-25,Refund,Phone,High,62,Yes,Resolved,Refund Processing Delay
+C031,2026-04-01,Delivery,Email,High,46,Yes,Resolved,Delivery Delay
+C032,2026-04-04,Billing,Phone,Medium,25,No,Resolved,Incorrect Invoice
+C033,2026-04-07,Product Quality,Web,High,78,Yes,Resolved,Product Defect
+C034,2026-04-10,Refund,Chat,Medium,38,No,Resolved,Refund Processing Delay
+C035,2026-04-13,Delivery,Phone,High,55,Yes,Resolved,Delivery Delay
+C036,2026-04-16,Account,Email,Low,11,No,Resolved,Account Information Issue
+C037,2026-04-19,Billing,Chat,Medium,29,No,Resolved,Incorrect Invoice
+C038,2026-04-22,Product Quality,Email,High,69,Yes,Resolved,Product Defect
+C039,2026-04-25,Delivery,Web,Medium,35,No,Resolved,Delivery Delay
+C040,2026-04-28,Refund,Phone,High,66,Yes,Resolved,Refund Processing Delay
+C041,2026-05-02,Delivery,Email,High,51,Yes,Resolved,Delivery Delay
+C042,2026-05-05,Billing,Phone,Medium,27,No,Resolved,Incorrect Invoice
+C043,2026-05-08,Product Quality,Web,High,75,Yes,Resolved,Product Defect
+C044,2026-05-11,Refund,Chat,Medium,41,No,Resolved,Refund Processing Delay
+C045,2026-05-14,Delivery,Phone,High,57,Yes,Resolved,Delivery Delay
+C046,2026-05-17,Account,Email,Low,13,No,Resolved,Account Information Issue
+C047,2026-05-20,Billing,Chat,Medium,31,No,Resolved,Incorrect Invoice
+C048,2026-05-23,Product Quality,Email,High,81,Yes,Resolved,Product Defect
+C049,2026-05-26,Delivery,Web,Medium,37,No,Resolved,Delivery Delay
+C050,2026-05-29,Refund,Phone,High,63,Yes,Resolved,Refund Processing Delay
