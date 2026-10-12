@@ -120,7 +120,7 @@ Detailed findings are documented in the project's analysis and root-cause analys
 
 The complete Excel workbook containing the calculations and interactive dashboard is available here:
 
-**[Download / View Customer Complaint Dashboard Workbook](./customer-complaint-dashboard.xlsx)**
+**[Download / View Customer Complaint Dashboard Workbook](customer-complaint-dashboard.xlsx)**
 
 ## Related Project Documentation
 
